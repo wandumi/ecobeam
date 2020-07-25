@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- <title>Hello World</title> -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).on('mobileinit', function(){
+            $.mobile.defaultPageTransition = 'slide';
+        });
+    </script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>  
+</head>
+
+<body>
+    <!-- Start of first page -->
+    <div data-role="page" id="home">
+        
+        
+        <div role="main" class="ui-content">
+            
+
+            <div class="data-iconpos" style="background-color: #fff !important;">
+                <img border="0" src="img/ecobeam1.png" alt="ecobeamlogo"
+                    style="float:left;display:inline; width:100px; height: 100%;" />
+                <div class="data-iconpos" style="float:right; display: inline;">
+                    <a href="#share"  class=" ui-btn-inline" data-icon="grid" data-transition="slide">Share</a>
+                    <a href="#location"  class="ui-btn-inline" data-icon="star" data-transition="slide">Location</a>
+                    <a href="#home" class="ui-btn-inline" data-icon="gear">Home</a>
+                    
+                </div>
+
+              
+            </div>
+
+            <div class="ui-field-contain">      
+                <label for="search-1">Search Input:</label>      
+                <input type="search" name="search-1" id="search-1" value="">
+            </div>
+
+            <fieldset>      
+                <div style="float:left">
+                    <!-- <label for="search-1">Search Input:</label>      -->
+                     <input type="search" name="search-1" id="search-1" width="40%">
+                </div>          
+                <div style="float: right;">
+                    <!-- <label for="search-1">Search Input:</label>       -->
+                    <input type="search" name="search-1" id="search-1" value="" width="40%">
+                </div>
+            </fieldset>
+
+            <div class="ui-body ui-body-a ui-corner-all">           
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse accumsan blandit fermentum. Pellentesque cursus mauris purus, auctor commodo mi ullamcorper nec.
+                    Donec semper mattis eros, nec condimentum 
+                </p>       
+            </div>
+
+            
+            <fieldset>     
+                <div style="float:left">
+                    <button href="#" >Like</button>
+                </div>     
+                   
+                <div style="float: right;">
+                    
+                </div>
+            </fieldset>
+            
+
+            <div style="background-color: blue;" data-position="fixed">           
+                <fieldset style="padding: 10px;" data-position="fixed">      
+                    <div style="float:left; ">
+                        <a href="#" class="ui-btn">Contact Us</a>
+                    </div>          
+                    <div style="float: right;">
+                        <a href="#" class="ui-btn">Report Abuse</a>
+                    </div>
+                </fieldset>
+                
+                <h4 style="text-transform:lowercase; font-weight: 300; padding-bottom: 10px; text-align:center; color:white; font-size: 14px;">Terms & Conditions Apply</h4>
+            </div>
+
+
+        </div><!-- /content -->
+        
+    </div><!-- /page -->
+    <!-- Start of second page -->
+    
+
+    <!-- Start of second page -->
+    <div data-role="page" id="location">
+        <div class="ui-content" data-role="header">
+            <p><h1>Location</h1></p>
+            <p> <a href="#home">Home</a></p>
+        </div><!-- /header -->
+        <div role="main" class="ui-content">
+            <p>Lorem ipsum dolor sit amet cons</a></p>
+            <p>Lorem ipsum dolor sit amet cons</p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <div role="main" class="ui-content">
+                <p><a href="#home" data-transition="slide" data-direction="rervese"> Contact Us</a></p>
+                <p><a href="#home" data-transition="slide" data-direction="rervese"> Report Abuse</a></p>
+            </div><!-- /content -->
+            <h4>Terms & Conditions Apply</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <!-- Start of second page -->
+    <div data-role="page" id="share">
+        <div data-role="header">
+            <p><h1>Share</h1></p>
+            <p> <a href="#home">Home</a></p>
+        </div><!-- /header -->
+        <div role="main" class="ui-content">
+            <p>Lorem ipsum dolor sit amet cons</a></p>
+            <p>Lorem ipsum dolor sit amet cons</p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <div role="main" class="ui-content">
+                <p><a href="#home" data-transition="slide" data-direction="rervese"> Contact Us</a></p>
+                <p><a href="#home" data-transition="slide" data-direction="rervese"> Report Abuse</a></p>
+            </div><!-- /content -->
+            <h4>Terms & Conditions Apply</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+
+
+</body>
+
+</html>
