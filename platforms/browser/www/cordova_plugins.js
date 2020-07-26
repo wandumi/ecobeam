@@ -360,6 +360,42 @@ module.exports = [
             "navigator.notification",
             "navigator"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js",
+        "id": "cordova-plugin-splashscreen.SplashScreenProxy",
+        "pluginId": "cordova-plugin-splashscreen",
+        "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "id": "cordova-plugin-splashscreen.SplashScreen",
+        "pluginId": "cordova-plugin-splashscreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-device-motion/www/Acceleration.js",
+        "id": "cordova-plugin-device-motion.Acceleration",
+        "pluginId": "cordova-plugin-device-motion",
+        "clobbers": [
+            "Acceleration"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-device-motion/www/accelerometer.js",
+        "id": "cordova-plugin-device-motion.accelerometer",
+        "pluginId": "cordova-plugin-device-motion",
+        "clobbers": [
+            "navigator.accelerometer"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-device-motion/src/browser/AccelerometerProxy.js",
+        "id": "cordova-plugin-device-motion.AccelerometerProxy",
+        "pluginId": "cordova-plugin-device-motion",
+        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -374,7 +410,9 @@ module.exports.metadata =
     "cordova-plugin-globalization": "1.0.9",
     "cordova-plugin-inappbrowser": "1.7.2",
     "cordova-plugin-network-information": "1.3.4",
-    "cordova-plugin-vibration": "2.1.6"
+    "cordova-plugin-vibration": "2.1.6",
+    "cordova-plugin-splashscreen": "6.0.0",
+    "cordova-plugin-device-motion": "2.0.1"
 }
 // BOTTOM OF METADATA
 });
